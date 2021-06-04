@@ -11,17 +11,20 @@ import sys
 from os import path
 filetype=input("What type of file do you want? ")
 fileext=""
-
+jmp=False
 
 
 associations=[("python","py"),("java","java"),("c++", "cpp")]
 for i in associations:
+
   if filetype.strip().lower()==i[0]:
-    print("found something")
+   # print("found something")
     filetype=filetype.strip().lower()
-    fileext=i[1]
-    break
-  sys.exit("You have requested an unsupported langauge!")    
+    fileext=i[1
+    ]
+    jmp=True
+if(not jmp): 
+ sys.exit("You have requested an unsupported langauge!")    
   
     
 #Continually be running the code 
