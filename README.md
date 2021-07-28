@@ -1,5 +1,5 @@
 # Live Code 
-The script in main.py allows you to write a code into a file name script then your language extension and then if the script is updated, your code will be run which makes restarting the code unneccessary which makes development easier.
+The script in main.py allows you to write a code into a file name script then your language extension and then if the script is updated, your code will be run which makes restarting the code unneccessary which makes development easier. This only works with synchronous code currently.
 
 **Note: This has not been thorougly tested though conceptually it will work.**
 
